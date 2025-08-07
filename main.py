@@ -11,7 +11,7 @@ BINANCE_API = "https://api.binance.com/api/v3"
 TIMEFRAMES = ["5m", "15m", "1h"]
 LIMIT = 100
 CONFIDENCE_THRESHOLD = 95
-SCAN_INTERVAL = 60  # هر چند ثانیه یکبار بررسی شود
+SCAN_INTERVAL = 30  # هر چند ثانیه یکبار بررسی شود
 
 app = Flask(__name__)
 
